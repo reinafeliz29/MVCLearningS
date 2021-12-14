@@ -9690,11 +9690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Pooja\\MVC\\MVCDemoS\\MVCDemoS.csproj",
+      "projectUniqueName": "E:\\Pooja\\MVC\\MVCLearningS\\MVCDemoS.csproj",
       "projectName": "MVCDemoS",
-      "projectPath": "E:\\Pooja\\MVC\\MVCDemoS\\MVCDemoS.csproj",
+      "projectPath": "E:\\Pooja\\MVC\\MVCLearningS\\MVCDemoS.csproj",
       "packagesPath": "C:\\Users\\pooja.Yadav\\.nuget\\packages\\",
-      "outputPath": "E:\\Pooja\\MVC\\MVCDemoS\\obj\\",
+      "outputPath": "E:\\Pooja\\MVC\\MVCLearningS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

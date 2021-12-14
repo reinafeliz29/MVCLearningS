@@ -15,8 +15,7 @@ namespace MVCDemoS.Repository
         }
         public async Task<SiteInfo> GetSiteInfo()
         {
-
-            var dt = _context.SiteInfo.FirstOrDefault();
+            var dt = await _context.SiteInfo.FirstOrDefaultAsync();
             return dt;
         }
     }

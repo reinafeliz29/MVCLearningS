@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+ 
+  mvcdemos:
+    image: ${DOCKER_REGISTRY-}mvcdemos
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - SA_PASSWORD=Qazplm*123#
+      - ACCEPT_EULA=Y
+    ports:
+      - "1450:1433"
+
+
+volumes:
+  mssql-server-pooja-data: {}

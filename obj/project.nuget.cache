@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JcecK+tedotobdu72Dsz+jpWJWwae+PjcxU5Ubnf6mZ0uGFPWY0DkM/P3QM7zwDb03PNv1HGssxsrq/P40ae0A==",
+  "dgSpecHash": "J4YJEZ57JlnCFDaa9UYDtHSGsgjRJrVDzAb8D6cR1zGeHfKWg9cDO73HAs1qqLDyXSdW/Gn/u80gF38K0N6cTA==",
   "success": true,
-  "projectFilePath": "E:\\Pooja\\MVC\\MVCDemoS\\MVCDemoS.csproj",
+  "projectFilePath": "E:\\Pooja\\MVC\\MVCLearningS\\MVCDemoS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pooja.Yadav\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\pooja.Yadav\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

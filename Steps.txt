@@ -1,0 +1,21 @@
+﻿
+///For create docker image
+docker build -f Dockerfile -t simpleapi .
+///For get docker image
+docker images
+
+// For run container 
+docker run -p 5700:80 --name simplecontainer1 simpleapi:latest
+
+//stop comtainer 
+docker stop simplecontainer
+
+//for remove image
+docker rmi simpleapi:latest
+
+//for remove container 
+docker rm simplecontainer
+
+
+
+

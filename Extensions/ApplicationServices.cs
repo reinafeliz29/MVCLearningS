@@ -11,6 +11,7 @@ namespace MVCDemoS.Extensions
         {
             service.AddScoped<ISiteInfoRepository, SiteInfoRepository>();
             service.AddScoped<IUnitOfWork, UnitOfWork>();
+            service.AddScoped<ICategoryRepository, CategoryRepository>();
             service.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
             return service; 
         }

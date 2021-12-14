@@ -12,7 +12,7 @@ namespace MVCDemoS.Data
             _context = context;
         }
         public ISiteInfoRepository SiteInfoRepository => new SiteInfoRepository(_context);
-
+        public ICategoryRepository CategoryRepository => new CategoryRepository(_context);
         public async Task<bool> Complete()
         {
             return await _context.SaveChangesAsync() > 0;
