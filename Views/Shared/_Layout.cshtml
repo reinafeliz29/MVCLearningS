@@ -1,4 +1,4 @@
-﻿@model SiteInfo
+﻿@*@model SiteInfo*@
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,8 @@
                 <div class="col-lg-8 col-md-8">
                     <ul class="top-info text-center text-md-right">
                         <li>
-                            <i class="fas fa-map-marker-alt"></i> <p class="info-text">@Model.Address</p>
+                            <i class="fas fa-map-marker-alt"></i> <p class="info-text">9051 Constra Incorporate, USA</p>
+                            @*  <i class="fas fa-map-marker-alt"></i> <p class="info-text">@Model.Address</p>*@
                         </li>
                     </ul>
                 </div>
@@ -48,7 +49,7 @@
         </div>
         <!--/ Container end -->
     </div>
-
+    <!--   -->
     <header id="header" class="header-one" style="margin-bottom: 0px;">
         <div class="bg-white">
             <div class="container">
@@ -66,7 +67,8 @@
                                     <div class="info-box">
                                         <div class="info-box-content">
                                             <p class="info-box-title">Call Us</p>
-                                            <p class="info-box-subtitle"><a href="tel:(+9) 847-291-4353">@Model.Phone</a></p>
+                                            <p class="info-box-subtitle"><a href="tel:(+9) 847-291-4353">8742914353</a></p>
+                                            @*    <p class="info-box-subtitle"><a href="tel:(+9) 847-291-4353">@Model.Phone</a></p>*@
                                         </div>
                                     </div>
                                 </li>
@@ -74,7 +76,8 @@
                                     <div class="info-box">
                                         <div class="info-box-content">
                                             <p class="info-box-title">Email Us</p>
-                                            <p class="info-box-subtitle"><a href="mailto:office@Constra.com">@Model.Email</a></p>
+                                            <p class="info-box-subtitle"><a href="mailto:office@Constra.com">office@Constra.com</a></p>
+                                            @*      <p class="info-box-subtitle"><a href="mailto:office@Constra.com">@Model.Email</a></p>*@
                                         </div>
                                     </div>
                                 </li>
@@ -82,7 +85,8 @@
                                     <div class="info-box last">
                                         <div class="info-box-content">
                                             <p class="info-box-title">Global Certificate</p>
-                                            <p class="info-box-subtitle">@Model.GlobalCertificate</p>
+                                            <p class="info-box-subtitle">IOS 9001:2017</p>
+                                            @*<p class="info-box-subtitle">@Model.GlobalCertificate</p>*@
                                         </div>
                                     </div>
                                 </li>
@@ -103,7 +107,6 @@
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-
                             <div id="navbar-collapse" class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav mr-auto">
                                     <li class="nav-item dropdown active">
@@ -123,15 +126,13 @@
                                             <li><a href="#">Pricing</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects <i class="fa fa-angle-down"></i></a>
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Features<i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li><a href="projects.html">Projects All</a></li>
-                                            <li><a href="projects-single.html">Projects Single</a></li>
+                                            <li><a href="#">Projects All</a></li>
+                                            <li><a href="#">Projects Single</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown-menu" role="menu">
@@ -139,7 +140,6 @@
                                             <li><a href="service-single.html">Services Single</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="nav-item dropdown">
                                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Features <i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown-menu" role="menu">
@@ -198,7 +198,7 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-4 col-md-6 footer-widget footer-about">
                         <h3 class="widget-title">About Us</h3>
-                        <img loading="lazy" width="200px" class="footer-logo" src="images/footer-logo.png" alt="@Model.Address">
+                        <img loading="lazy" width="200px" class="footer-logo" src="images/footer-logo.png" alt="">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
                             labore et dolore magna aliqua.
@@ -210,9 +210,13 @@
                                 <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li>
                             </ul>
+                            <ul>
+                                <li>
+                                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                            </ul>
                         </div><!-- Footer social end -->
                     </div><!-- Col end -->
-
                     <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
                         <h3 class="widget-title">Working Hours</h3>
                         <div class="working-hours">
@@ -223,7 +227,6 @@
                             <br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span>
                         </div>
                     </div><!-- Col end -->
-
                     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
                         <h3 class="widget-title">Services</h3>
                         <ul class="list-arrow">
@@ -262,11 +265,11 @@
                         </div>
                     </div>
                 </div><!-- Row end -->
-
                 <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed" style="display: block;">
                     <button class="btn btn-primary" title="Back to Top">
                         <i class="fa fa-angle-double-up"></i>
-                    </button>
+                    </button> @*// vendor can create a profile for the manager and to create a probably provider to the client and manage the production environment and provide the 
+                        the specific and manage the provider sp, the provider are also get on the code*@
                 </div>
             </div><!-- Container end -->
         </div><!-- Copyright end -->

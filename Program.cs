@@ -19,6 +19,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+//Today I tried deploy webservice kubernetes, successfully create pods, get a ImagePullBackOff error by creating pods, go through some references for the error. 
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

@@ -17,5 +17,6 @@ namespace MVCDemoS.Models
         [Required]
         public string Address { get; set; }
         public DateTimeOffset InsertedDate { get; set; } = DateTimeOffset.Now;
+
     }
 }

@@ -42,6 +42,8 @@ namespace MVCDemoS.Controllers
             }
             return View(obj);
         }
+
+
         //GET
         public IActionResult Edit(int? id)
         {
@@ -50,7 +52,6 @@ namespace MVCDemoS.Controllers
             if (category == null) { return NotFound(); }
             return View(category);
         }
-
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -76,17 +77,6 @@ namespace MVCDemoS.Controllers
             var category = _context.Categories.Find(id);
             if (category == null) { return NotFound(); }
             return View(category);
-        }
-        //POST  
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeletePOST(int? id)
-        {
-            var category = _context.Categories.Find(id);
-            if (category == null) { return NotFound(); }
-            _unitOfWork.CategoryRepository.DeleteCategory(category);
-            TempData["success"] = "Category deleted successfully";
-            return RedirectToAction("Index");
         }
     }
 }

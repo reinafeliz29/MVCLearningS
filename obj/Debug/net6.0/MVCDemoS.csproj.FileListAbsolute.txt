@@ -283,10 +283,6 @@ E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\MessagePack.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\MessagePack.Annotations.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.Build.dll
-E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.Build.Tasks.Core.dll
-E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.Build.Utilities.Core.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -334,7 +330,6 @@ E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\NuGet.Packaging.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\NuGet.ProjectModel.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\NuGet.Protocol.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\NuGet.Versioning.dll
-E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.CodeDom.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Composition.Convention.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -343,7 +338,6 @@ E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Composition.TypedParts.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Drawing.Common.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Resources.Extensions.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Runtime.Caching.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -537,3 +531,4 @@ E:\Pooja\MVC\MVCLearningS\obj\Debug\net6.0\MVCDemoS.pdb
 E:\Pooja\MVC\MVCLearningS\obj\Debug\net6.0\MVCDemoS.genruntimeconfig.cache
 E:\Pooja\MVC\MVCLearningS\obj\Debug\net6.0\MVCDemoS.csproj.AssemblyReference.cache
 E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\launchSettings.json
+E:\Pooja\MVC\MVCLearningS\bin\Debug\net6.0\Microsoft.Build.Locator.dll

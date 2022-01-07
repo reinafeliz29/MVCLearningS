@@ -32,6 +32,11 @@ namespace MVCDemoS.Repository
             var data = await _context.Categories.ToListAsync();
             return data;
         }
+        public async Task<Category> GetCategoryById(int id)
+        {
+            var data = await _context.Categories.FindAsync(id);
+            return data;
+        }
         public async Task<Category> GetCategory(int id)
         {
             var category = await _context.Categories.FindAsync(id);

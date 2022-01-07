@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MVCDemoS.Data;
 using MVCDemoS.Interface;
 using MVCDemoS.Models;
@@ -22,7 +23,7 @@ namespace MVCDemoS.Controllers
         public IActionResult Index()
         {
             var siteInfo = _unitOfWork.SiteInfoRepository.GetSiteInfo();
-            return View(siteInfo.Result);
+            return View();
         }
         public IActionResult Privacy()
         {
